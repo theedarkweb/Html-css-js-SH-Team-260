@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+@media only screen and(max-width:1440)
+(min-width:375) { 
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkblue;
+    display:grid;
+}
+li, a{
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    font-size: 1em;
+    color:white;
+    font-weight:1000;
+    text-decoration: none;
+    
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8%;
+}
+.nav-links{
+    transition: all 0.2s ease 0s;
+}
+.nav-links li{
+display: inline-block;
+padding: 40px;
+}
+.nav-links li a{
+    transition: all 0.2s ease 0s;
+}
+.nav-links li a:hover{
+    color: aqua;
+}
+.image{
+    padding-left: 200px;
+
+    
+}
+
+.text{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 50px;
+    
+}
+
+.text1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+.button{
+    background-color: cyan;
+    padding: 20px 20px;
+    margin:20px 500px;
+    border-radius: 20px;
+    width: 200px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    color: white;
+    
+}
+
+    .divpoc{
+        height: 50px;
+        width:350px;
+         text-align: center;
+    }
+    
+
+.span{
+    font-size: 1.5em;
+}
+.image2{
+    height: 250px;
+         width: 450px;
+}
+.productive{
+    padding-left: 200px;
+    margin-top: 100px;
+}
+h2{
+    margin-left: 10px;
+    padding-top: 40px;
+}
